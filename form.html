@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Form Data</h1>
+    <div class="wrapper">
+        <form class="form">
+            <label id="nameField">
+                <input type="text" name="NameField" placeholder="name" required>
+            </label>
+            <label id="emailFiled">
+                <input type="email" name="emailField" placeholder="Email" required>
+            </label>
+            <label id="passwordField">
+                <input type="password" name="passwordField" placeholder="password" required>
+            </label>
+            <label id="passwordVarifyField">
+                <input type="password" name="passwordVarifyField" placeholder="Re-Enter password" required>
+            </label>
+            <input type="submit" value="Submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
+<style>
+    .wrapper{
+        width: 400px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .wrapper label{
+        display: block;
+        margin:0.5em 0;
+
+    }
+    .wrapper label input{
+        font-size: 18px;
+        padding:0.5em;
+    }
+    .wrapper input[type="submit"]{
+        font-size: 25px;
+        color: blue;
+    }
+</style>
